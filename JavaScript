@@ -1,0 +1,11 @@
+const clipboard = [
+    "First text",
+    "Second text",
+    "Third text"
+];
+
+console.log("Clipboard History:");
+
+clipboard.forEach((item, index) => {
+    console.log(`${index + 1}: ${item}`);
+});
