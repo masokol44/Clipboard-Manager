@@ -1,0 +1,15 @@
+<?php
+
+$clipboard = [
+    "First text",
+    "Second text",
+    "Third text"
+];
+
+echo "Clipboard History:\n";
+
+foreach ($clipboard as $index => $item) {
+    echo ($index + 1) . ": " . $item . "\n";
+}
+
+?>
