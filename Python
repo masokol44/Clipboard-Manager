@@ -1,0 +1,10 @@
+clipboard = [
+    "First text",
+    "Second text",
+    "Third text"
+]
+
+print("Clipboard History:")
+
+for index, item in enumerate(clipboard, start=1):
+    print(f"{index}: {item}")
